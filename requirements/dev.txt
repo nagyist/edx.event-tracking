@@ -345,7 +345,7 @@ tomlkit==0.14.0
     # via
     #   -r requirements/test.txt
     #   pylint
-tox==4.36.1
+tox==4.38.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/dev.in
