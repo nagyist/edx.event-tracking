@@ -29,7 +29,7 @@ billiard==4.2.4
     # via
     #   -r requirements/test.txt
     #   celery
-build==1.4.0
+build==1.4.1
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
@@ -188,7 +188,7 @@ mccabe==0.7.0
     #   pylint
 mock==5.2.0
     # via -r requirements/test.txt
-openedx-events==10.5.0
+openedx-events==11.0.0
     # via -r requirements/test.txt
 packaging==26.0
     # via
