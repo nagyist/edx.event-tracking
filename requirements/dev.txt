@@ -47,9 +47,9 @@ cffi==2.0.0
     # via
     #   -r requirements/test.txt
     #   pynacl
-charset-normalizer==3.4.6
+charset-normalizer==3.4.7
     # via requests
-click==8.3.1
+click==8.3.2
     # via
     #   -r requirements/pip-tools.txt
     #   -r requirements/test.txt
@@ -102,7 +102,7 @@ distlib==0.4.0
     # via
     #   -r requirements/ci.txt
     #   virtualenv
-django==5.2.12
+django==5.2.13
     # via
     #   -c https://raw.githubusercontent.com/edx/edx-lint/master/edx_lint/files/common_constraints.txt
     #   -r requirements/test.txt
@@ -140,12 +140,12 @@ edx-lint==6.0.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/test.txt
-edx-opaque-keys[django]==3.1.0
+edx-opaque-keys[django]==4.0.0
     # via
     #   -r requirements/test.txt
     #   edx-ccx-keys
     #   openedx-events
-edx-toggles==5.4.1
+edx-toggles==6.0.0
     # via -r requirements/test.txt
 fastavro==1.12.1
     # via
@@ -279,7 +279,7 @@ pyproject-hooks==1.2.0
     #   -r requirements/pip-tools.txt
     #   build
     #   pip-tools
-pytest==9.0.2
+pytest==9.0.3
     # via
     #   -r requirements/test.txt
     #   pytest-cov
@@ -289,7 +289,7 @@ python-dateutil==2.9.0.post0
     # via
     #   -r requirements/test.txt
     #   celery
-python-discovery==1.2.1
+python-discovery==1.2.2
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -360,7 +360,7 @@ typing-extensions==4.15.0
     # via
     #   -r requirements/test.txt
     #   edx-opaque-keys
-tzdata==2025.3
+tzdata==2026.1
     # via
     #   -r requirements/test.txt
     #   kombu
