@@ -43,11 +43,11 @@ celery==5.6.3
     #   -r requirements/test.txt
 certifi==2026.6.17
     # via requests
-cffi==2.0.0
+cffi==2.1.0
     # via
     #   -r requirements/test.txt
     #   pynacl
-charset-normalizer==3.4.7
+charset-normalizer==3.4.8
     # via requests
 click==8.4.2
     # via
@@ -87,7 +87,7 @@ colorama==0.4.6
     # via
     #   -r requirements/ci.txt
     #   tox
-coverage[toml]==7.14.3
+coverage[toml]==7.15.0
     # via
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
@@ -151,7 +151,7 @@ fastavro==1.12.2
     # via
     #   -r requirements/test.txt
     #   openedx-events
-filelock==3.29.4
+filelock==3.29.6
     # via
     #   -r requirements/ci.txt
     #   python-discovery
@@ -289,7 +289,7 @@ python-dateutil==2.9.0.post0
     # via
     #   -r requirements/test.txt
     #   celery
-python-discovery==1.4.2
+python-discovery==1.4.3
     # via
     #   -r requirements/ci.txt
     #   tox
@@ -334,7 +334,7 @@ sqlparse==0.5.5
     # via
     #   -r requirements/test.txt
     #   django
-stevedore==5.8.0
+stevedore==5.9.0
     # via
     #   -r requirements/test.txt
     #   code-annotations
@@ -353,11 +353,11 @@ tomlkit==0.15.0
     #   -r requirements/test.txt
     #   edx-lint
     #   pylint
-tox==4.56.1
+tox==4.56.2
     # via
     #   -r requirements/ci.txt
     #   -r requirements/dev.in
-typing-extensions==4.15.0
+typing-extensions==4.16.0
     # via
     #   -r requirements/test.txt
     #   edx-opaque-keys
@@ -377,7 +377,7 @@ vine==5.1.0
     #   amqp
     #   celery
     #   kombu
-virtualenv==21.5.1
+virtualenv==21.6.0
     # via
     #   -r requirements/ci.txt
     #   tox
