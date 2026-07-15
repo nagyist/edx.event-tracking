@@ -7,7 +7,7 @@
     # via
     #   -r requirements/base.txt
     #   kombu
-asgiref==3.11.1
+asgiref==3.12.1
     # via
     #   -r requirements/base.txt
     #   django
@@ -56,7 +56,7 @@ code-annotations==3.0.0
     #   -r requirements/base.txt
     #   edx-lint
     #   edx-toggles
-coverage[toml]==7.15.0
+coverage[toml]==7.15.1
     # via pytest-cov
 ddt==1.7.2
     # via -r requirements/test.in
@@ -161,7 +161,7 @@ pylint==4.0.6
     #   pylint-plugin-utils
 pylint-celery==0.3
     # via edx-lint
-pylint-django==2.7.0
+pylint-django==2.8.0
     # via edx-lint
 pylint-plugin-utils==0.9.0
     # via
@@ -221,7 +221,7 @@ typing-extensions==4.16.0
     # via
     #   -r requirements/base.txt
     #   edx-opaque-keys
-tzdata==2026.2
+tzdata==2026.3
     # via
     #   -r requirements/base.txt
     #   kombu
