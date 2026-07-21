@@ -7,7 +7,7 @@
     # via
     #   -r requirements/base.txt
     #   kombu
-asgiref==3.11.1
+asgiref==3.12.1
     # via
     #   -r requirements/base.txt
     #   django
@@ -56,7 +56,7 @@ code-annotations==3.0.0
     #   -r requirements/base.txt
     #   edx-lint
     #   edx-toggles
-coverage[toml]==7.15.1
+coverage[toml]==7.15.2
     # via pytest-cov
 ddt==1.7.2
     # via -r requirements/test.in
@@ -132,7 +132,7 @@ packaging==26.2
     #   -r requirements/base.txt
     #   kombu
     #   pytest
-platformdirs==4.10.0
+platformdirs==4.10.1
     # via pylint
 pluggy==1.6.0
     # via
@@ -213,7 +213,7 @@ text-unidecode==1.3
     # via
     #   -r requirements/base.txt
     #   python-slugify
-tomlkit==0.15.0
+tomlkit==0.15.1
     # via
     #   edx-lint
     #   pylint
