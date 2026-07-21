@@ -10,7 +10,7 @@ amqp==5.3.1
     # via
     #   -r requirements/test.txt
     #   kombu
-asgiref==3.11.1
+asgiref==3.12.1
     # via
     #   -r requirements/test.txt
     #   django
@@ -29,7 +29,7 @@ billiard==4.2.4
     # via
     #   -r requirements/test.txt
     #   celery
-build==1.5.1
+build==1.5.0
     # via
     #   -r requirements/pip-tools.txt
     #   pip-tools
@@ -87,7 +87,7 @@ colorama==0.4.6
     # via
     #   -r requirements/ci.txt
     #   tox
-coverage[toml]==7.15.1
+coverage[toml]==7.15.2
     # via
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
@@ -151,7 +151,7 @@ fastavro==1.12.2
     # via
     #   -r requirements/test.txt
     #   openedx-events
-filelock==3.29.7
+filelock==3.31.2
     # via
     #   -r requirements/ci.txt
     #   python-discovery
@@ -202,11 +202,11 @@ packaging==26.2
     #   sphinx
     #   tox
     #   wheel
-pip-tools==7.5.3
+pip-tools==7.6.0
     # via
     #   -r requirements/dev.in
     #   -r requirements/pip-tools.txt
-platformdirs==4.10.0
+platformdirs==4.10.1
     # via
     #   -r requirements/ci.txt
     #   -r requirements/test.txt
@@ -348,12 +348,12 @@ tomli-w==1.2.0
     # via
     #   -r requirements/ci.txt
     #   tox
-tomlkit==0.15.0
+tomlkit==0.15.1
     # via
     #   -r requirements/test.txt
     #   edx-lint
     #   pylint
-tox==4.56.4
+tox==4.57.2
     # via
     #   -r requirements/ci.txt
     #   -r requirements/dev.in
