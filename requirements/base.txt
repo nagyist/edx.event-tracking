@@ -78,7 +78,7 @@ openedx-events==11.2.0
     # via -r requirements/base.in
 packaging==26.2
     # via kombu
-prompt-toolkit==3.0.52
+prompt-toolkit==3.0.53
     # via click-repl
 psutil==7.2.2
     # via edx-django-utils
@@ -94,7 +94,7 @@ python-dateutil==2.9.0.post0
     # via celery
 python-slugify==8.0.4
     # via code-annotations
-pytz==2026.2
+pytz==2026.3.post1
     # via -r requirements/base.in
 pyyaml==6.0.3
     # via code-annotations
